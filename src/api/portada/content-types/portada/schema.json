@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "portadas",
+  "info": {
+    "singularName": "portada",
+    "pluralName": "portadas",
+    "displayName": "Portada"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombrePortada": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "imagen": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
